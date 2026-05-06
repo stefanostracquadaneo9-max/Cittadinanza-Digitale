@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
         'index.html': 'home',
         'cieid.html': 'cieid',
         'spid.html': 'spid',
-        'firma-digitale.html': 'firma-digitale'
+        'firma-digitale.html': 'firma-digitale',
+        'pec.html': 'pec'
     };
     
     const currentSection = fileToSection[currentFile];
@@ -37,7 +38,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 'home': 'index.html',
                 'cieid': 'cieid.html',
                 'spid': 'spid.html',
-                'firma-digitale': 'firma-digitale.html'
+                'firma-digitale': 'firma-digitale.html',
+                'pec': 'pec.html'
             };
             
             if (sectionToFile[section]) {
